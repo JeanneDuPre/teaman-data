@@ -1,49 +1,53 @@
-import fs from "node:fs/promises";
-import path from "node:path";
+const BASE_URL =
+  "https://www.ferien-api.maxleistner.de/api/v2";
 
 const STATE_CODE = "BE";
 
-async function fetchHolidays() {
-  const response = await fetch(
-    "HIER_KOMMT_DIE_FERIEN_API_HINEIN",
+const YEARS = [
+  2026,
+  2027,
+  2028,
+];
+
+async function fetchHolidays(
+  stateCode,
+  year,
+) {
+  const url =
+    `${BASE_URL}/${year}?states=${stateCode}`;
+
+  console.log(`Lade: ${url}`);
+
+  const response = await fetch(url);
+
+  console.log(
+    `${stateCode} ${year}: ${response.status}`,
   );
 
   if (!response.ok) {
     throw new Error(
-      `Ferien-API antwortet mit ${response.status}`,
+      `Ferien konnten nicht geladen werden: ${response.status}`,
     );
   }
 
   return response.json();
 }
 
-function normalizeHolidays(apiData) {
-  return apiData.map((holiday) => ({
-    id: holiday.id,
-    name: holiday.name,
-    type: holiday.type,
-    startDate: holiday.startDate,
-    endDate: holiday.endDate,
-  }));
-}
-
 async function main() {
-  console.log("Lade Ferien für Berlin ...");
+  for (const year of YEARS) {
+    const data = await fetchHolidays(
+      STATE_CODE,
+      year,
+    );
 
-  const apiData = await fetchHolidays();
+    console.log(
+      `API RESPONSE ${STATE_CODE} ${year}:`,
+    );
 
-  const holidays = normalizeHolidays(apiData);
-
-  console.log(
-    `${holidays.length} Ferienzeiträume geladen.`,
-  );
-
-  // später:
-  // - nach Schuljahr gruppieren
-  // - bestehende BE.json vergleichen
-  // - Version erhöhen
-  // - BE.json schreiben
-  // - metadata.json aktualisieren
+    console.log(
+      JSON.stringify(data, null, 2),
+    );
+  }
 }
 
 await main();
