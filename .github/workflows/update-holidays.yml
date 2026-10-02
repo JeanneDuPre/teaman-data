@@ -1,23 +1,23 @@
-name: Update school holidays
+# name: Update school holidays
 
-on:
-  workflow_dispatch:
+# on:
+#   workflow_dispatch:
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
-jobs:
-  update-holidays:
-    runs-on: ubuntu-latest
+# jobs:
+#   update-holidays:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Repository laden
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Repository laden
+#         uses: actions/checkout@v4
 
-      - name: Node einrichten
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
+#       - name: Node einrichten
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 22
 
-      - name: Ferien abrufen
-        run: node scripts/update-holidays.mjs
+#       - name: Ferien abrufen
+#         run: node scripts/update-holidays.mjs
