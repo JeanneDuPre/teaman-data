@@ -1,0 +1,22 @@
+{
+  "stateCode": "BE",
+  "updatedAt": "2026-10-02T12:00:00Z",
+  "schoolYears": {
+    "2026/27": [
+      {
+        "id": "BE-2026-autumn",
+        "name": "Herbstferien",
+        "type": "autumn",
+        "startDate": "2026-10-19",
+        "endDate": "2026-10-31"
+      },
+      {
+        "id": "BE-2026-christmas",
+        "name": "Weihnachtsferien",
+        "type": "christmas",
+        "startDate": "2026-12-23",
+        "endDate": "2027-01-02"
+      }
+    ]
+  }
+}
