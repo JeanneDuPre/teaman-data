@@ -1,0 +1,42 @@
+name: Update school holidays
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 4 1 * *"
+      timezone: "Europe/Berlin"
+
+permissions:
+  contents: write
+
+jobs:
+  update-holidays:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+
+      - name: Node einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ferien aktualisieren
+        run: npm run update:holidays
+
+      - name: Änderungen prüfen und speichern
+        run: |
+          git config user.name "TeaMan Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen gefunden."
+            exit 0
+          fi
+
+          git commit -m "Update school holidays"
+          git push
