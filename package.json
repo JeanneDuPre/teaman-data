@@ -1,0 +1,8 @@
+{
+  "name": "teaman-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update:holidays": "node scripts/update-holidays.mjs"
+  }
+}
