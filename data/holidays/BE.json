@@ -1,23 +1,134 @@
-
 {
   "stateCode": "BE",
   "version": 1,
-  "updatedAt": "2026-10-02T20:00:00Z",
+  "updatedAt": "2026-10-05T18:47:20.112Z",
   "schoolYears": {
     "2026/27": [
       {
-        "id": "BE-2026-autumn",
-        "name": "Herbstferien",
-        "type": "autumn",
-        "startDate": "2026-10-19",
-        "endDate": "2026-10-31"
+        "start": "2026-02-02T00:00Z",
+        "end": "2026-02-07T23:59Z",
+        "year": 2026,
+        "stateCode": "BE",
+        "name": "winterferien",
+        "name_cp": "Winterferien",
+        "slug": "winterferien-2026-BE"
       },
       {
-        "id": "BE-2026-christmas",
-        "name": "Weihnachtsferien",
-        "type": "christmas",
-        "startDate": "2026-12-23",
-        "endDate": "2027-01-02"
+        "start": "2026-03-30T00:00Z",
+        "end": "2026-04-10T23:59Z",
+        "year": 2026,
+        "stateCode": "BE",
+        "name": "osterferien",
+        "name_cp": "Osterferien",
+        "slug": "osterferien-2026-BE"
+      },
+      {
+        "start": "2026-05-15T00:00Z",
+        "end": "2026-05-15T23:59Z",
+        "year": 2026,
+        "stateCode": "BE",
+        "name": "variabler_ferientag",
+        "name_cp": "Variabler Ferientag",
+        "slug": "variabler-ferientag-2026-BE"
+      },
+      {
+        "start": "2026-05-26T00:00Z",
+        "end": "2026-05-26T23:59Z",
+        "year": 2026,
+        "stateCode": "BE",
+        "name": "pfingstferien",
+        "name_cp": "Pfingstferien",
+        "slug": "pfingstferien-2026-BE"
+      },
+      {
+        "start": "2026-07-09T00:00Z",
+        "end": "2026-08-22T23:59Z",
+        "year": 2026,
+        "stateCode": "BE",
+        "name": "sommerferien",
+        "name_cp": "Sommerferien",
+        "slug": "sommerferien-2026-BE"
+      },
+      {
+        "start": "2026-10-19T00:00Z",
+        "end": "2026-10-31T23:59Z",
+        "year": 2026,
+        "stateCode": "BE",
+        "name": "herbstferien",
+        "name_cp": "Herbstferien",
+        "slug": "herbstferien-2026-BE"
+      },
+      {
+        "start": "2026-12-23T00:00Z",
+        "end": "2027-01-02T23:59Z",
+        "year": 2026,
+        "stateCode": "BE",
+        "name": "weihnachtsferien",
+        "name_cp": "Weihnachtsferien",
+        "slug": "weihnachtsferien-2026-BE"
+      },
+      {
+        "start": "2027-02-01T00:00Z",
+        "end": "2027-02-06T23:59Z",
+        "year": 2027,
+        "stateCode": "BE",
+        "name": "winterferien",
+        "name_cp": "Winterferien",
+        "slug": "winterferien-2027-BE"
+      },
+      {
+        "start": "2027-03-22T00:00Z",
+        "end": "2027-04-02T23:59Z",
+        "year": 2027,
+        "stateCode": "BE",
+        "name": "osterferien",
+        "name_cp": "Osterferien",
+        "slug": "osterferien-2027-BE"
+      },
+      {
+        "start": "2027-05-07T00:00Z",
+        "end": "2027-05-07T23:59Z",
+        "year": 2027,
+        "stateCode": "BE",
+        "name": "osterferien",
+        "name_cp": "Osterferien",
+        "slug": "osterferien-2027-BE"
+      },
+      {
+        "start": "2027-05-18T00:00Z",
+        "end": "2027-05-19T23:59Z",
+        "year": 2027,
+        "stateCode": "BE",
+        "name": "pfingstferien",
+        "name_cp": "Pfingstferien",
+        "slug": "pfingstferien-2027-BE"
+      },
+      {
+        "start": "2027-07-01T00:00Z",
+        "end": "2027-08-14T23:59Z",
+        "year": 2027,
+        "stateCode": "BE",
+        "name": "sommerferien",
+        "name_cp": "Sommerferien",
+        "slug": "sommerferien-2027-BE"
+      },
+      {
+        "start": "2027-10-11T00:00Z",
+        "end": "2027-10-23T23:59Z",
+        "year": 2027,
+        "stateCode": "BE",
+        "name": "herbstferien",
+        "name_cp": "Herbstferien",
+        "slug": "herbstferien-2027-BE"
+      },
+      {
+        "start": "2027-12-22T00:00Z",
+        "end": "2027-12-31T23:59Z",
+        "year": 2027,
+        "stateCode": "BE",
+        "name": "weihnachtsferien",
+        "name_cp": "Weihnachtsferien",
+        "slug": "weihnachtsferien-2027-BE"
       }
     ]
   }
