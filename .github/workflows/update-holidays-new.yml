@@ -3,6 +3,10 @@ name: Update school holidays NEW
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: "17 4 1 * *"
+      timezone: "Europe/Berlin"
+
 permissions:
   contents: write
 
