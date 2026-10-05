@@ -1,4 +1,4 @@
-name: Update school holidays NEW
+name: Update school holidays
 
 on:
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
           node-version: 22
 
       - name: Ferien abrufen
-        run: npm run update:holidays
+        run: node scripts/update-holidays.mjs
 
       - name: Änderungen speichern
         run: |
@@ -30,7 +30,7 @@ jobs:
           git add data/
 
           if git diff --cached --quiet; then
-            echo "Keine Änderungen."
+            echo "Keine Änderungen vorhanden."
             exit 0
           fi
 
