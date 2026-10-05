@@ -1,0 +1,116 @@
+{
+  "stateCode": "SN",
+  "version": 1,
+  "updatedAt": "2026-10-05T19:05:15.974Z",
+  "schoolYears": {
+    "2026/27": [
+      {
+        "id": "sommerferien-2026-SN",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2026-07-04",
+        "endDate": "2026-08-14"
+      },
+      {
+        "id": "herbstferien-2026-SN",
+        "name": "Herbstferien",
+        "type": "autumn",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-24"
+      },
+      {
+        "id": "weihnachtsferien-2026-SN",
+        "name": "Weihnachtsferien",
+        "type": "christmas",
+        "startDate": "2026-12-23",
+        "endDate": "2027-01-02"
+      },
+      {
+        "id": "winterferien-2027-SN",
+        "name": "Winterferien",
+        "type": "winter",
+        "startDate": "2027-02-08",
+        "endDate": "2027-02-19"
+      },
+      {
+        "id": "osterferien-2027-SN",
+        "name": "Osterferien",
+        "type": "easter",
+        "startDate": "2027-03-26",
+        "endDate": "2027-04-02"
+      },
+      {
+        "id": "pfingstferien-2027-SN",
+        "name": "Pfingstferien",
+        "type": "pentecost",
+        "startDate": "2027-05-07",
+        "endDate": "2027-05-07"
+      },
+      {
+        "id": "pfingstferien-2027-SN",
+        "name": "Pfingstferien",
+        "type": "pentecost",
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-18"
+      },
+      {
+        "id": "sommerferien-2027-SN",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2027-07-10",
+        "endDate": "2027-08-20"
+      }
+    ],
+    "2027/28": [
+      {
+        "id": "sommerferien-2027-SN",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2027-07-10",
+        "endDate": "2027-08-20"
+      },
+      {
+        "id": "herbstferien-2027-SN",
+        "name": "Herbstferien",
+        "type": "autumn",
+        "startDate": "2027-10-11",
+        "endDate": "2027-10-23"
+      },
+      {
+        "id": "weihnachtsferien-2027-SN",
+        "name": "Weihnachtsferien",
+        "type": "christmas",
+        "startDate": "2027-12-23",
+        "endDate": "2028-01-01"
+      },
+      {
+        "id": "winterferien-2028-SN",
+        "name": "Winterferien",
+        "type": "winter",
+        "startDate": "2028-02-14",
+        "endDate": "2028-02-26"
+      },
+      {
+        "id": "osterferien-2028-SN",
+        "name": "Osterferien",
+        "type": "easter",
+        "startDate": "2028-04-14",
+        "endDate": "2028-04-22"
+      },
+      {
+        "id": "osterferien-2028-SN",
+        "name": "Osterferien",
+        "type": "easter",
+        "startDate": "2028-05-26",
+        "endDate": "2028-05-26"
+      },
+      {
+        "id": "sommerferien-2028-SN",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2028-07-22",
+        "endDate": "2028-09-01"
+      }
+    ]
+  }
+}

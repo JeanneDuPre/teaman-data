@@ -1,122 +1,129 @@
 {
-  "stateCode": "BE",
-  "version": 2,
-  "updatedAt": "2026-10-05T19:05:09.841Z",
+  "stateCode": "MV",
+  "version": 1,
+  "updatedAt": "2026-10-05T19:05:12.859Z",
   "schoolYears": {
     "2026/27": [
       {
-        "id": "sommerferien-2026-BE",
+        "id": "sommerferien-2026-MV",
         "name": "Sommerferien",
         "type": "summer",
-        "startDate": "2026-07-09",
+        "startDate": "2026-07-13",
         "endDate": "2026-08-22"
       },
       {
-        "id": "herbstferien-2026-BE",
+        "id": "herbstferien-2026-MV",
         "name": "Herbstferien",
         "type": "autumn",
         "startDate": "2026-10-19",
-        "endDate": "2026-10-31"
+        "endDate": "2026-10-24"
       },
       {
-        "id": "weihnachtsferien-2026-BE",
+        "id": "herbstferien-2026-MV",
+        "name": "Herbstferien",
+        "type": "autumn",
+        "startDate": "2026-11-26",
+        "endDate": "2026-11-27"
+      },
+      {
+        "id": "weihnachtsferien-2026-MV",
         "name": "Weihnachtsferien",
         "type": "christmas",
-        "startDate": "2026-12-23",
+        "startDate": "2026-12-19",
         "endDate": "2027-01-02"
       },
       {
-        "id": "winterferien-2027-BE",
+        "id": "winterferien-2027-MV",
         "name": "Winterferien",
         "type": "winter",
-        "startDate": "2027-02-01",
-        "endDate": "2027-02-06"
+        "startDate": "2027-02-08",
+        "endDate": "2027-02-19"
       },
       {
-        "id": "osterferien-2027-BE",
+        "id": "osterferien-2027-MV",
         "name": "Osterferien",
         "type": "easter",
-        "startDate": "2027-03-22",
+        "startDate": "2027-03-24",
         "endDate": "2027-04-02"
       },
       {
-        "id": "osterferien-2027-BE",
-        "name": "Osterferien",
-        "type": "easter",
+        "id": "pfingstferien-2027-MV",
+        "name": "Pfingstferien",
+        "type": "pentecost",
         "startDate": "2027-05-07",
         "endDate": "2027-05-07"
       },
       {
-        "id": "pfingstferien-2027-BE",
+        "id": "pfingstferien-2027-MV",
         "name": "Pfingstferien",
         "type": "pentecost",
-        "startDate": "2027-05-18",
-        "endDate": "2027-05-19"
+        "startDate": "2027-05-14",
+        "endDate": "2027-05-18"
       },
       {
-        "id": "sommerferien-2027-BE",
+        "id": "sommerferien-2027-MV",
         "name": "Sommerferien",
         "type": "summer",
-        "startDate": "2027-07-01",
+        "startDate": "2027-07-05",
         "endDate": "2027-08-14"
       }
     ],
     "2027/28": [
       {
-        "id": "sommerferien-2027-BE",
+        "id": "sommerferien-2027-MV",
         "name": "Sommerferien",
         "type": "summer",
-        "startDate": "2027-07-01",
+        "startDate": "2027-07-05",
         "endDate": "2027-08-14"
       },
       {
-        "id": "herbstferien-2027-BE",
+        "id": "herbstferien-2027-MV",
         "name": "Herbstferien",
         "type": "autumn",
-        "startDate": "2027-10-11",
+        "startDate": "2027-10-14",
         "endDate": "2027-10-23"
       },
       {
-        "id": "weihnachtsferien-2027-BE",
+        "id": "weihnachtsferien-2027-MV",
         "name": "Weihnachtsferien",
         "type": "christmas",
         "startDate": "2027-12-22",
-        "endDate": "2027-12-31"
+        "endDate": "2028-01-04"
       },
       {
-        "id": "winterferien-2028-BE",
+        "id": "winterferien-2028-MV",
         "name": "Winterferien",
         "type": "winter",
-        "startDate": "2028-01-31",
-        "endDate": "2028-02-05"
+        "startDate": "2028-02-05",
+        "endDate": "2028-02-17"
       },
       {
-        "id": "osterferien-2028-BE",
+        "id": "osterferien-2028-MV",
         "name": "Osterferien",
         "type": "easter",
-        "startDate": "2028-04-10",
-        "endDate": "2028-04-22"
+        "startDate": "2028-04-12",
+        "endDate": "2028-04-21"
       },
       {
-        "id": "osterferien-2028-BE",
+        "id": "osterferien-2028-MV",
         "name": "Osterferien",
         "type": "easter",
         "startDate": "2028-05-26",
         "endDate": "2028-05-26"
       },
       {
-        "id": "pfingstferien-2028-BE",
+        "id": "pfingstferien-2028-MV",
         "name": "Pfingstferien",
         "type": "pentecost",
-        "startDate": "2028-06-01",
-        "endDate": "2028-06-02"
+        "startDate": "2028-06-02",
+        "endDate": "2028-06-06"
       },
       {
-        "id": "sommerferien-2028-BE",
+        "id": "sommerferien-2028-MV",
         "name": "Sommerferien",
         "type": "summer",
-        "startDate": "2028-07-01",
-        "endDate": "2028-08-12"
+        "startDate": "2028-06-26",
+        "endDate": "2028-08-05"
       }
     ]
   }

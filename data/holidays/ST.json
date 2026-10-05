@@ -1,0 +1,109 @@
+{
+  "stateCode": "ST",
+  "version": 1,
+  "updatedAt": "2026-10-05T19:05:16.551Z",
+  "schoolYears": {
+    "2026/27": [
+      {
+        "id": "sommerferien-2026-ST",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2026-07-04",
+        "endDate": "2026-08-14"
+      },
+      {
+        "id": "herbstferien-2026-ST",
+        "name": "Herbstferien",
+        "type": "autumn",
+        "startDate": "2026-10-19",
+        "endDate": "2026-10-30"
+      },
+      {
+        "id": "weihnachtsferien-2026-ST",
+        "name": "Weihnachtsferien",
+        "type": "christmas",
+        "startDate": "2026-12-21",
+        "endDate": "2027-01-02"
+      },
+      {
+        "id": "winterferien-2027-ST",
+        "name": "Winterferien",
+        "type": "winter",
+        "startDate": "2027-02-01",
+        "endDate": "2027-02-06"
+      },
+      {
+        "id": "osterferien-2027-ST",
+        "name": "Osterferien",
+        "type": "easter",
+        "startDate": "2027-03-22",
+        "endDate": "2027-03-27"
+      },
+      {
+        "id": "pfingstferien-2027-ST",
+        "name": "Pfingstferien",
+        "type": "pentecost",
+        "startDate": "2027-05-15",
+        "endDate": "2027-05-22"
+      },
+      {
+        "id": "sommerferien-2027-ST",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2027-07-10",
+        "endDate": "2027-08-20"
+      }
+    ],
+    "2027/28": [
+      {
+        "id": "sommerferien-2027-ST",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2027-07-10",
+        "endDate": "2027-08-20"
+      },
+      {
+        "id": "herbstferien-2027-ST",
+        "name": "Herbstferien",
+        "type": "autumn",
+        "startDate": "2027-10-18",
+        "endDate": "2027-10-23"
+      },
+      {
+        "id": "weihnachtsferien-2027-ST",
+        "name": "Weihnachtsferien",
+        "type": "christmas",
+        "startDate": "2027-12-20",
+        "endDate": "2027-12-31"
+      },
+      {
+        "id": "winterferien-2028-ST",
+        "name": "Winterferien",
+        "type": "winter",
+        "startDate": "2028-02-07",
+        "endDate": "2028-02-12"
+      },
+      {
+        "id": "osterferien-2028-ST",
+        "name": "Osterferien",
+        "type": "easter",
+        "startDate": "2028-04-10",
+        "endDate": "2028-04-22"
+      },
+      {
+        "id": "pfingstferien-2028-ST",
+        "name": "Pfingstferien",
+        "type": "pentecost",
+        "startDate": "2028-06-03",
+        "endDate": "2028-06-10"
+      },
+      {
+        "id": "sommerferien-2028-ST",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2028-07-22",
+        "endDate": "2028-09-01"
+      }
+    ]
+  }
+}

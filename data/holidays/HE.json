@@ -1,0 +1,81 @@
+{
+  "stateCode": "HE",
+  "version": 1,
+  "updatedAt": "2026-10-05T19:05:12.248Z",
+  "schoolYears": {
+    "2026/27": [
+      {
+        "id": "sommerferien-2026-HE",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2026-06-29",
+        "endDate": "2026-08-07"
+      },
+      {
+        "id": "herbstferien-2026-HE",
+        "name": "Herbstferien",
+        "type": "autumn",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-17"
+      },
+      {
+        "id": "weihnachtsferien-2026-HE",
+        "name": "Weihnachtsferien",
+        "type": "christmas",
+        "startDate": "2026-12-23",
+        "endDate": "2027-01-12"
+      },
+      {
+        "id": "osterferien-2027-HE",
+        "name": "Osterferien",
+        "type": "easter",
+        "startDate": "2027-03-22",
+        "endDate": "2027-04-02"
+      },
+      {
+        "id": "sommerferien-2027-HE",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2027-06-28",
+        "endDate": "2027-08-06"
+      }
+    ],
+    "2027/28": [
+      {
+        "id": "sommerferien-2027-HE",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2027-06-28",
+        "endDate": "2027-08-06"
+      },
+      {
+        "id": "herbstferien-2027-HE",
+        "name": "Herbstferien",
+        "type": "autumn",
+        "startDate": "2027-10-04",
+        "endDate": "2027-10-16"
+      },
+      {
+        "id": "weihnachtsferien-2027-HE",
+        "name": "Weihnachtsferien",
+        "type": "christmas",
+        "startDate": "2027-12-23",
+        "endDate": "2028-01-11"
+      },
+      {
+        "id": "osterferien-2028-HE",
+        "name": "Osterferien",
+        "type": "easter",
+        "startDate": "2028-04-03",
+        "endDate": "2028-04-14"
+      },
+      {
+        "id": "sommerferien-2028-HE",
+        "name": "Sommerferien",
+        "type": "summer",
+        "startDate": "2028-07-03",
+        "endDate": "2028-08-11"
+      }
+    ]
+  }
+}
