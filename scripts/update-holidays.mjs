@@ -1,13 +1,14 @@
+import fs from "node:fs/promises";
+
 const BASE_URL =
   "https://www.ferien-api.maxleistner.de/api/v2";
 
 const STATE_CODE = "BE";
 
-const YEARS = [
-  2026,
-  2027,
-  2028,
-];
+const YEARS = [2026, 2027];
+
+const OUTPUT_FILE =
+  "data/holidays/BE.json";
 
 async function fetchHolidays(
   stateCode,
@@ -34,20 +35,46 @@ async function fetchHolidays(
 }
 
 async function main() {
-  for (const year of YEARS) {
-    const data = await fetchHolidays(
-      STATE_CODE,
-      year,
-    );
+  const data2026 = await fetchHolidays(
+    STATE_CODE,
+    2026,
+  );
 
-    console.log(
-      `API RESPONSE ${STATE_CODE} ${year}:`,
-    );
+  const data2027 = await fetchHolidays(
+    STATE_CODE,
+    2027,
+  );
 
-    console.log(
-      JSON.stringify(data, null, 2),
-    );
-  }
+  console.log("2026:", data2026);
+  console.log("2027:", data2027);
+
+  const output = {
+    stateCode: STATE_CODE,
+    version: 1,
+    updatedAt: new Date().toISOString(),
+
+    // Zunächst nur zum Test:
+    schoolYears: {
+      "2026/27": [
+        ...data2026,
+        ...data2027,
+      ],
+    },
+  };
+
+  await fs.mkdir("data/holidays", {
+    recursive: true,
+  });
+
+  await fs.writeFile(
+    OUTPUT_FILE,
+    JSON.stringify(output, null, 2),
+    "utf8",
+  );
+
+  console.log(
+    `Datei geschrieben: ${OUTPUT_FILE}`,
+  );
 }
 
 await main();
