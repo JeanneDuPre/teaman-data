@@ -1,4 +1,4 @@
-name: Update school holidays
+name: Update school holidays NEW
 
 on:
   workflow_dispatch:
