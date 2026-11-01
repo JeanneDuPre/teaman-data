@@ -1,7 +1,7 @@
 {
   "stateCode": "MV",
-  "version": 1,
-  "updatedAt": "2026-10-05T19:05:12.859Z",
+  "version": 2,
+  "updatedAt": "2026-11-01T10:28:07.693Z",
   "schoolYears": {
     "2026/27": [
       {
@@ -95,7 +95,7 @@
         "name": "Winterferien",
         "type": "winter",
         "startDate": "2028-02-05",
-        "endDate": "2028-02-17"
+        "endDate": "2028-02-18"
       },
       {
         "id": "osterferien-2028-MV",
@@ -105,9 +105,9 @@
         "endDate": "2028-04-21"
       },
       {
-        "id": "osterferien-2028-MV",
-        "name": "Osterferien",
-        "type": "easter",
+        "id": "pfingstferien-2028-MV",
+        "name": "Pfingstferien",
+        "type": "pentecost",
         "startDate": "2028-05-26",
         "endDate": "2028-05-26"
       },

@@ -1,7 +1,7 @@
 {
   "stateCode": "HH",
-  "version": 1,
-  "updatedAt": "2026-10-05T19:05:11.658Z",
+  "version": 2,
+  "updatedAt": "2026-11-01T10:28:06.362Z",
   "schoolYears": {
     "2026/27": [
       {
@@ -30,12 +30,12 @@
         "name": "Winterferien",
         "type": "winter",
         "startDate": "2027-01-29",
-        "endDate": "2027-01-30"
+        "endDate": "2027-01-29"
       },
       {
-        "id": "fruehjahrsferien-2027-HH",
-        "name": "Fruehjahrsferien",
-        "type": "other",
+        "id": "osterferien-2027-HH",
+        "name": "Osterferien",
+        "type": "easter",
         "startDate": "2027-03-01",
         "endDate": "2027-03-12"
       },
@@ -44,7 +44,7 @@
         "name": "Pfingstferien",
         "type": "pentecost",
         "startDate": "2027-05-07",
-        "endDate": "2027-05-15"
+        "endDate": "2027-05-14"
       },
       {
         "id": "sommerferien-2027-HH",

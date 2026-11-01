@@ -1,7 +1,7 @@
 {
   "stateCode": "BB",
-  "version": 1,
-  "updatedAt": "2026-10-05T19:05:10.441Z",
+  "version": 2,
+  "updatedAt": "2026-11-01T10:28:05.205Z",
   "schoolYears": {
     "2026/27": [
       {
@@ -40,9 +40,9 @@
         "endDate": "2027-04-03"
       },
       {
-        "id": "osterferien-2027-BB",
-        "name": "Osterferien",
-        "type": "easter",
+        "id": "variabler-ferientag-2027-BB",
+        "name": "Variabler Ferientag",
+        "type": "other",
         "startDate": "2027-05-07",
         "endDate": "2027-05-07"
       },
@@ -98,9 +98,9 @@
         "endDate": "2028-04-22"
       },
       {
-        "id": "osterferien-2028-BB",
-        "name": "Osterferien",
-        "type": "easter",
+        "id": "variabler-ferientag-2028-BB",
+        "name": "Variabler Ferientag",
+        "type": "other",
         "startDate": "2028-05-26",
         "endDate": "2028-05-26"
       },

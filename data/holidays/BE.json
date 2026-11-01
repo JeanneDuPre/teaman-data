@@ -1,7 +1,7 @@
 {
   "stateCode": "BE",
-  "version": 2,
-  "updatedAt": "2026-10-05T19:05:09.841Z",
+  "version": 3,
+  "updatedAt": "2026-11-01T10:28:04.602Z",
   "schoolYears": {
     "2026/27": [
       {
@@ -40,9 +40,9 @@
         "endDate": "2027-04-02"
       },
       {
-        "id": "osterferien-2027-BE",
-        "name": "Osterferien",
-        "type": "easter",
+        "id": "pfingstferien-2027-BE",
+        "name": "Pfingstferien",
+        "type": "pentecost",
         "startDate": "2027-05-07",
         "endDate": "2027-05-07"
       },
@@ -98,9 +98,9 @@
         "endDate": "2028-04-22"
       },
       {
-        "id": "osterferien-2028-BE",
-        "name": "Osterferien",
-        "type": "easter",
+        "id": "pfingstferien-2028-BE",
+        "name": "Pfingstferien",
+        "type": "pentecost",
         "startDate": "2028-05-26",
         "endDate": "2028-05-26"
       },
